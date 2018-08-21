@@ -1,0 +1,106 @@
+body{
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-dark-grey;
+ 
+}
+
+// heading
+
+.heading-secondary{
+    font-size: 3rem;
+    margin-bottom: 4.5rem;
+    padding-top: .5rem;
+    color: $color-grey-1;
+    text-transform: uppercase;
+
+}
+
+
+.heading-tertiary{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    color: $color-grey-1;
+    
+}
+
+.heading-card{
+    font-size: 5.5rem;
+    color: $color-white;
+    display: block;
+    position: relative;
+    margin-bottom: 4rem;
+
+    &::after{
+        position: absolute;
+        content: "";
+        height: .3rem;
+        width: 10%;
+        bottom: -1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: $color-white;
+    }
+}
+
+
+
+
+
+
+// Sections
+
+
+.section-digital{
+
+background-color: #fafafa;
+
+    &__text{
+        font-size: 1.6rem;
+        color: $color-grey;
+    }
+
+}
+
+
+.section-why{
+    color: $color-grey;
+    
+    &__list{
+        list-style: none;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    &__item{
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid #e4e4e4;
+        padding-bottom: .5rem;
+    }
+
+    &__icon{
+        padding-right: 1rem;
+        font-size: 2rem;
+        vertical-align: middle;
+        padding-bottom: .4rem;
+
+
+        &--big{
+          font-size: 6rem;
+          margin-bottom: 2rem;  
+        }
+    }
+
+
+    &__col{
+        text-align: center;
+    }
+
+    .section-why__text{
+        font-size: 1.5rem;
+    }
+
+
+}
+

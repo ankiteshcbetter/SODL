@@ -1,0 +1,51 @@
+.header{
+
+    .top{
+        background-color: $color-primary;
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        color: #fff;
+        text-align: right;
+        padding-right: 2rem;
+        font-weight: 700;
+
+        &__icon{
+            vertical-align: middle;
+            padding-bottom: .2rem;
+            font-size: 1.5rem;
+        }
+
+        &__tel{
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+
+    height: 85vh;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+
+
+
+    &__logo-box{
+        width: 10%;
+        float: left;
+        img{
+            width: 100%;
+        }
+    }
+
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        padding-right: 3rem;
+    }
+
+    .navbar{
+        padding: 2rem 3.5rem;
+    }
+
+
+}
