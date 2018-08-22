@@ -81,6 +81,21 @@ body {
 .u-mb-l {
   margin-bottom: 7rem !important; }
 
+.u-color-white {
+  color: #fff !important; }
+
+.box {
+  border: 2px solid #fff;
+  padding: 2rem;
+  border-radius: 2px; }
+  .box__item {
+    color: #fff;
+    font-size: 1.6rem; }
+  .box__text {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1rem; }
+
 .btn-primary {
   background-color: #444;
   border: 0;
@@ -128,7 +143,7 @@ body {
   background-position: top; }
   .header .top {
     background-color: #d1222f;
-    padding: 1rem 0;
+    padding: .3rem 0;
     font-size: 1.4rem;
     color: #fff;
     text-align: right;
@@ -154,7 +169,7 @@ body {
     padding: 2rem 3.5rem; }
 
 .section-digital {
-  padding: 4rem 0;
+  padding: 5rem 0;
   background-color: #fafafa; }
   .section-digital__image {
     width: 100%; }
@@ -163,5 +178,9 @@ body {
   padding: 5rem 0; }
 
 .section-numbers {
-  padding: 4rem 0;
+  padding: 5rem 0;
   background-color: #fafafa; }
+
+.section-features {
+  padding: 5rem 0;
+  background-color: #d1222f; }
