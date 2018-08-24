@@ -72,6 +72,18 @@ body {
   .section-why .section-why__text {
     font-size: 1.5rem; }
 
+.accordion .collapsed .add {
+  display: inline-block; }
+
+.accordion .collapsed .minus {
+  display: none; }
+
+.accordion .add {
+  display: none; }
+
+.accordion .minus {
+  display: inline-block; }
+
 .u-mb-s {
   margin-bottom: 3rem !important; }
 
@@ -85,16 +97,21 @@ body {
   color: #fff !important; }
 
 .box {
-  border: 2px solid #fff;
+  border: 2px solid #d1222f;
   padding: 2rem;
   border-radius: 2px; }
+  .box-container--left {
+    padding-right: 1.5rem; }
+  .box-container--right {
+    padding-left: 1.5rem; }
   .box__item {
-    color: #fff;
-    font-size: 1.6rem; }
+    color: #d1222f;
+    font-size: 1.8rem; }
   .box__text {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    font-size: 1.6rem; }
 
 .btn-primary {
   background-color: #444;
@@ -183,4 +200,8 @@ body {
 
 .section-features {
   padding: 5rem 0;
-  background-color: #d1222f; }
+  background-color: #fff; }
+
+.section-modules {
+  padding: 5rem 0;
+  background-color: #fafafa; }

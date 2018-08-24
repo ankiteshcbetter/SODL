@@ -104,3 +104,20 @@ background-color: #fafafa;
 
 }
 
+.accordion .collapsed .add{
+    display: inline-block;
+
+}
+
+.accordion .collapsed .minus{
+    display: none;
+
+}
+
+.accordion .add{
+    display: none;
+}
+
+.accordion .minus{
+    display: inline-block;
+}
