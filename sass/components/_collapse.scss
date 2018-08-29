@@ -1,0 +1,59 @@
+.accordion .collapsed .add{
+    display: inline-block;
+
+}
+
+.accordion .collapsed .minus{
+    display: none;
+
+}
+
+.accordion .add{
+    display: none;
+}
+
+.accordion .minus{
+    display: inline-block;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+.card-header:hover,
+.card-header:active,
+.card-header:link{
+    background-color: $color-primary;
+
+    .btn-link{
+        color: $color-white;
+        text-decoration: none;
+        
+    }
+
+}
+
+.btn-link {
+    font-weight: 400;
+    color: $color-dark-grey;
+    background-color: transparent;
+    font-size: 1.4rem;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+
+    
+}
+
+.add,.minus{
+    vertical-align: middle;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.card-body{
+    font-size: 1.2rem;
+    
+}

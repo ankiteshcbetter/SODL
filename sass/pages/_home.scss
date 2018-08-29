@@ -28,3 +28,22 @@
     padding: 5rem 0;
     background-color: $color-light-grey;
 }
+
+
+.section-dates{
+    padding: 5rem 0;
+    background-color: $color-white;
+}
+
+.section-contact{
+    padding: 2.5rem 0;
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: 1.6rem;
+
+    &__link{
+        text-decoration: none;
+        color: $color-white;
+    }
+}
+

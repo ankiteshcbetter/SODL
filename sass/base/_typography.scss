@@ -104,20 +104,16 @@ background-color: #fafafa;
 
 }
 
-.accordion .collapsed .add{
-    display: inline-block;
+.section-dates{
 
+    &__text{
+        color: $color-grey;
+        font-size:3.5rem;
+        letter-spacing: 2px;
+
+     }
 }
 
-.accordion .collapsed .minus{
-    display: none;
-
-}
-
-.accordion .add{
-    display: none;
-}
-
-.accordion .minus{
-    display: inline-block;
+.active{
+    color: $color-primary;
 }

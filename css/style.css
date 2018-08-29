@@ -72,17 +72,13 @@ body {
   .section-why .section-why__text {
     font-size: 1.5rem; }
 
-.accordion .collapsed .add {
-  display: inline-block; }
+.section-dates__text {
+  color: #808084;
+  font-size: 3.5rem;
+  letter-spacing: 2px; }
 
-.accordion .collapsed .minus {
-  display: none; }
-
-.accordion .add {
-  display: none; }
-
-.accordion .minus {
-  display: inline-block; }
+.active {
+  color: #d1222f; }
 
 .u-mb-s {
   margin-bottom: 3rem !important; }
@@ -95,6 +91,9 @@ body {
 
 .u-color-white {
   color: #fff !important; }
+
+.u-fs-m {
+  font-size: 2.2rem !important; }
 
 .box {
   border: 2px solid #d1222f;
@@ -153,6 +152,50 @@ body {
     color: #fff;
     font-size: 1.5rem; }
 
+.accordion .collapsed .add {
+  display: inline-block; }
+
+.accordion .collapsed .minus {
+  display: none; }
+
+.accordion .add {
+  display: none; }
+
+.accordion .minus {
+  display: inline-block; }
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: none; }
+
+.card-header:hover,
+.card-header:active,
+.card-header:link {
+  background-color: #d1222f; }
+  .card-header:hover .btn-link,
+  .card-header:active .btn-link,
+  .card-header:link .btn-link {
+    color: #fff;
+    text-decoration: none; }
+
+.btn-link {
+  font-weight: 400;
+  color: #444;
+  background-color: transparent;
+  font-size: 1.4rem;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: left; }
+
+.add, .minus {
+  vertical-align: middle;
+  padding-right: 1rem;
+  padding-bottom: .5rem; }
+
+.card-body {
+  font-size: 1.2rem; }
+
 .header {
   height: 85vh;
   background-image: url(../images/hero.jpg);
@@ -205,3 +248,16 @@ body {
 .section-modules {
   padding: 5rem 0;
   background-color: #fafafa; }
+
+.section-dates {
+  padding: 5rem 0;
+  background-color: #fff; }
+
+.section-contact {
+  padding: 2.5rem 0;
+  background-color: #d1222f;
+  color: #fff;
+  font-size: 1.6rem; }
+  .section-contact__link {
+    text-decoration: none;
+    color: #fff; }
